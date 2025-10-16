@@ -1,0 +1,85 @@
+# 🔐 VAPT Capstone Project — SecureSphere Inc. Assessment
+
+### By Ilo Paul Okechukwu  
+**Cyber Security Training Program | October 2025**
+
+---
+
+## 🧩 Project Overview
+This project is part of my Cyber Security Capstone, focusing on **Vulnerability Assessment and Penetration Testing (VAPT)** of both a web application and a deliberately vulnerable virtual machine (Metasploitable3).  
+The goal was to simulate real-world attack scenarios, identify vulnerabilities, and recommend remediation measures.
+
+---
+
+## 🎯 Objectives
+- Identify security weaknesses in the web and system environments.
+- Perform vulnerability scanning, exploitation, and reporting using industry-standard tools.
+- Demonstrate risk impact and provide mitigation recommendations.
+
+---
+
+## 🧪 Target Environment
+| Target | Description | IP Address |
+|---------|--------------|------------|
+| Target 1 | Web Application (ctflearn.com) | 104.21.14.37 |
+| Target 2 | Metasploitable3 VM | 10.244.168.40 |
+
+**Attacker Machine:** Kali Linux  
+**Tester:** Ilo Paul Okechukwu  
+
+---
+
+## 🧰 Tools & Frameworks Used
+|      Phase     |            Tools            |                Purpose                    |
+|----------------|-----------------------------|-------------------------------------------|
+| Reconnaissance | `whois`, `nslookup`, `nmap` | Information gathering & service discovery |
+| Scanning       | `Nikto`, `dirb`             | Web vulnerability & directory enumeration |
+| Exploitation   | `sqlmap`, `msfconsole`      | SQL Injection and system exploitation     |
+| Reporting      | Markdown, MS Word           | Documentation and presentation            |
+
+---
+
+## ⚙️ Techniques Applied
+- Port and Service Enumeration  
+- Web Server Scanning  
+- Directory Enumeration  
+- SQL Injection Testing  
+- Exploitation and Post-Exploitation (Metasploit)  
+- Risk Evaluation and Reporting  
+
+---
+
+## 🧾 Summary of Findings
+|   Vulnerability        |         Severity        |        Impact        |               Recommendation               |
+|------------------------|-------------------------|----------------------|--------------------------------------------|
+| SQL Injection          | Critical                | Database compromise  | Sanitize inputs; use parameterized queries |
+| Weak Password Policy   | High                    | Unauthorized access  | Enforce complex passwords & MFA            |
+| Outdated Software      | Medium                  | Exploitable flaws    | Regular patching and updates               |
+| Misconfigured Firewall | Medium                  | Exposure of services | Limit open ports & harden network          |
+
+---
+
+## 🧩 Key Results
+- Multiple open ports discovered (80, 443).  
+- SQLi vulnerability confirmed through automated and manual testing.  
+- Gained limited shell access on Metasploitable3 through Metasploit.  
+- Recommendations provided for patching, input validation, and system hardening.
+
+---
+
+## 📂 Repository Contents
+- `/report` — Full project report (PDF)  
+- `/evidence` — Tool outputs and scan logs  
+- `/screenshots` — Visual evidence of tests and results  
+
+---
+
+## 📜 License
+This repository is for **educational and portfolio purposes only**.  
+Do **not** use these techniques on unauthorized systems.  
+
+---
+
+## 🧑‍💻 Author
+**Ilo Paul Okechukwu**  
+🌐 [LinkedIn Profile or Portfolio Link www.linkedin.com/in/paul-okechukwu-ilo-957992386]  
