@@ -1,6 +1,6 @@
 # VAPT Capstone Project — SecureSphere Inc. Assessment
 
-**Cyber Security PRoject | October 2025**
+**Cyber Security Project | October 2025**
 
 ---
 
